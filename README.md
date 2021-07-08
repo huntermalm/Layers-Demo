@@ -1,4 +1,4 @@
-# <img src="https://github.com/huntermalm/Layers-Demo/blob/main/readme_logo.svg?raw=true" alt="layers_demo_logo" width="500"/>
+# <img src="https://github.com/huntermalm/Layers-Demo/blob/main/readme_logo.svg?raw=true" alt="layers_demo_logo" width="740"/>
 
 The Layers Demo is a minimal Layers application that demonstrates the capabilities of the Layers software library. The source-code demonstrates how to get a basic Layers application up and running, while the binary release is provided to let developers see a Layers app in action.
 
