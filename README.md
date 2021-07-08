@@ -13,7 +13,7 @@ It is recommended to clone a copy of the project repository to be able to use pr
 You may also download a .zip of the project [here](https://github.com/huntermalm/Layers-Demo/archive/main.zip).
 
 ##### The following dependencies must be installed before attempting to run the Layers Demo from source-code:
-* Layers
+* [Layers](https://github.com/huntermalm/Layers)
 * Qt 5.13.2 (Future Qt versions may work but have not been tested.)
 
 ## Installation
