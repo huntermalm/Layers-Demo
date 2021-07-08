@@ -1,12 +1,12 @@
 # <img src="https://github.com/huntermalm/Layers-Demo/blob/main/readme_logo.svg?raw=true" alt="layers_demo_logo" width="500"/>
 
-The Layers Demo is a minimal Layers application that demonstrates the capabilities of the Layers software library.
+The Layers Demo is a minimal Layers application that demonstrates the capabilities of the Layers software library. The source-code demonstrates how to get a basic Layers application up and running, while the binary release is provided to let developers see a Layers app in action.
 
 ## Development and Testing
 
 These are the steps to install a copy of Layers Demo source-code on your local machine for development and testing purposes.
 
-It is recommended to clone a copy of the project repository to be able to use project features that have been implemented.  You may clone the project's repository with:
+It is recommended to clone a copy of the project repository to be able to use project features that have been implemented. You may clone the project's repository with:
 
 > git clone https://github.com/huntermalm/Layers-Demo.git
 
@@ -18,12 +18,12 @@ You may also download a .zip of the project [here](https://github.com/huntermalm
 
 ## Installation
 
-**Since Layers development is still in the alpha stage, do not expect everything this library has to offer to be stable or functional. Alpha releases are provided for developers to test library functionality. It is not recommended to start developing your application with a Layers alpha build since things can change before a production build is released.**
+**Since Layers development is still in the alpha stage, do not expect everything in this demo to be stable or functional.**
 
-Grab the latest version of Layers from the downloads below.  Follow the standard library linking process for your IDE.
+Grab the latest version of the Layers Demo from the downloads below. Uncompress the .zip file and run 'Layers Demo.exe' to launch the demo application. There is no installation.
 
 ## Downloads
-* [Layers-2.0.0a.zip](https://github.com/huntermalm/Layers/releases/download/2.0.0a/Layers-2.0.0a.zip)
+* [Layers-Demo_2.0.0a.zip](https://github.com/huntermalm/Layers-Demo/releases/download/2.0.0a/Layers-Demo_2.0.0a.zip)
 
 ## Authors
 
