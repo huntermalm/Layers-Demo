@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	a.setFont(f);
 
-    Layers::Window w;
+    Layers::Window w("LayersDemo");
 
     w.finalize();
 
