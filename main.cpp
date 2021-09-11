@@ -1,41 +1,24 @@
 #include "Layers.h"
 
 #include <QApplication>
-#include <QFontDatabase>
 #include <QIcon>
 
 int main(int argc, char *argv[])
 {
-    QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+    Layers::Application::setAttribute(Qt::AA_EnableHighDpiScaling);
 
-    QApplication a(argc, argv);
+	Layers::Application app("LayersDemo", "2.2.0a", "huntermalm/Layers-Demo", argc, argv);
 
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-Black.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-BlackItalic.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-Bold.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-BoldItalic.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-Italic.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-Light.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-LightItalic.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-Medium.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-MediumItalic.ttf");
-	QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-Regular.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-Thin.ttf");
-    QFontDatabase::addApplicationFont("./fonts/Roboto/Roboto-ThinItalic.ttf");
+	if (app.update_available())
+		if (app.update_on_request()) return 0;
 
-	QFont f("Roboto", 12, QFont::Normal);
+    Layers::Window window;
 
-	f.setStyleStrategy(QFont::PreferAntialias);
+	window.finalize();
 
-	a.setFont(f);
+	window.setWindowIcon(QIcon("layers_2d_logo.png"));
 
-    Layers::Window w("LayersDemo");
+	window.show();
 
-    w.finalize();
-
-    w.setWindowIcon(QIcon("layers_2d_logo.png"));
-
-    w.show();
-
-    return a.exec();
+    return app.exec();
 }
