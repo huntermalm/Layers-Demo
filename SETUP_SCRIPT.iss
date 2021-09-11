@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Layers Demo"
-#define MyAppVersion "2.2.0a-TEST"
+#define MyAppVersion "2.2.0a"
 #define MyAppPublisher "Hunter Malm"
 #define MyAppURL "https://github.com/huntermalm/Layers-Demo"
 #define MyAppExeName "Layers Demo.exe"
@@ -24,7 +24,7 @@ LicenseFile=D:\Google Drive\Projects\Software\Layers\LICENSE
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=C:\Users\huntr\Desktop
-OutputBaseFilename=LayersDemo-2.2.0a-TEST-setup
+OutputBaseFilename=LayersDemo-2.2.0a-setup
 SetupIconFile=D:\Google Drive\Projects\Software\Layers-Demo\layers_2d_logo.ico
 Compression=lzma
 SolidCompression=yes
@@ -37,23 +37,26 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\huntr\Desktop\LD FIXED\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\D3Dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\layers_2d_logo.png"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\libGLESV2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\opengl32sw.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\Qt5Core.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\Qt5Gui.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\Qt5Network.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\Qt5Svg.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\Qt5Widgets.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\huntr\Desktop\LD FIXED\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\huntr\Desktop\LD FIXED\iconengines\*"; DestDir: "{app}\iconengines"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\huntr\Desktop\LD FIXED\imageformats\*"; DestDir: "{app}\imageformats"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\huntr\Desktop\LD FIXED\platforms\*"; DestDir: "{app}\platforms"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\huntr\Desktop\LD FIXED\styles\*"; DestDir: "{app}\styles"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\huntr\Desktop\LD FIXED\translations\*"; DestDir: "{app}\translations"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\D3Dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\layers_2d_logo.png"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\libcrypto-1_1-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\libssl-1_1-x64.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\opengl32sw.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\Qt6Core.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\Qt6Gui.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\Qt6Network.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\Qt6Svg.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\Qt6SvgWidgets.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\Qt6Widgets.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\iconengines\*"; DestDir: "{app}\iconengines"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\imageformats\*"; DestDir: "{app}\imageformats"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\platforms\*"; DestDir: "{app}\platforms"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\styles\*"; DestDir: "{app}\styles"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\huntr\Desktop\Layers Demo - 2.2.0a\translations\*"; DestDir: "{app}\translations"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\Google Drive\redists\vcredist_x64_2010.exe"; DestDir: {tmp}; Flags: deleteafterinstall
+Source: "D:\Google Drive\redists\vcredist_x64_2015-2019.exe"; DestDir: {tmp}; Flags: deleteafterinstall
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -63,3 +66,10 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall
 
+Filename: {tmp}\vcredist_x64_2010.exe; \
+    Parameters: "/q"; \
+    StatusMsg: "Installing Microsoft Visual C++ 2010 Redistributable..."
+
+Filename: {tmp}\vcredist_x64_2015-2019.exe; \
+    Parameters: "/q"; \
+    StatusMsg: "Installing Microsoft Visual C++ 2015-2019 Redistributable..."
