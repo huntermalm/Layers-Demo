@@ -16,13 +16,10 @@ You may also download a .zip of the project [here](https://github.com/huntermalm
 * [Layers](https://github.com/huntermalm/Layers)
 * Qt 6 (Other Qt versions may work but have not been tested.)
 
-## Installation
+## Download
 
 **Since Layers development is still in the alpha stage, do not expect everything in this demo to be stable or functional.**
 
-Grab the latest version of the Layers Demo from the downloads below. Uncompress the .zip file and run 'Layers Demo.exe' to launch the demo application. There is no installation.
-
-## Download
 * [LayersDemo-2.2.0a-setup.exe](https://github.com/huntermalm/Layers-Demo/releases/download/2.2.0a/LayersDemo-2.2.0a-setup.exe) (2021-09-11)
 
 ## Authors
