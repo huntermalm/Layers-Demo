@@ -14,7 +14,7 @@ You may also download a .zip of the project [here](https://github.com/huntermalm
 
 ##### The following dependencies must be installed before attempting to run the Layers Demo from source-code:
 * [Layers](https://github.com/huntermalm/Layers)
-* Qt 5.13.2 (Future Qt versions may work but have not been tested.)
+* Qt 6 (Other Qt versions may work but have not been tested.)
 
 ## Installation
 
@@ -22,8 +22,8 @@ You may also download a .zip of the project [here](https://github.com/huntermalm
 
 Grab the latest version of the Layers Demo from the downloads below. Uncompress the .zip file and run 'Layers Demo.exe' to launch the demo application. There is no installation.
 
-## Downloads
-* [Layers-Demo_2.0.0a.zip](https://github.com/huntermalm/Layers-Demo/releases/download/2.0.0a/Layers-Demo_2.0.0a.zip)
+## Download
+* [LayersDemo-2.2.0a-setup.exe](https://github.com/huntermalm/Layers-Demo/releases/download/2.2.0a/LayersDemo-2.2.0a-setup.exe) (2021-09-11)
 
 ## Authors
 
