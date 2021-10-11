@@ -31,9 +31,9 @@
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
-    <QtInstall>6.1.3</QtInstall>
     <QtModules>core;gui;network;svgwidgets;widgets</QtModules>
     <QtBuildConfig>debug</QtBuildConfig>
+    <QtInstall>6.1.3</QtInstall>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
     <QtInstall>6.1.3</QtInstall>
