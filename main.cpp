@@ -1,9 +1,12 @@
-#include "Layers.h"
+#include "Application.h"
+#include "GitHubRepo.h"
+#include "Version.h"
+#include "Window.h"
+
+#include <QIcon>
 
 int main(int argc, char *argv[])
 {
-    //Layers::Application app("LayersDemo", "2.2.0a", "huntermalm/Layers-Demo", argc, argv);
-
     Layers::Application app(argc, argv,
         "Layers Demo",
         nullptr,
